@@ -5,11 +5,11 @@ from streamlit_option_menu import option_menu
 
 #loading the saved models
 
-diabetes_model=pickle.load(open('C:/Users/HP/Desktop/saved models/diabetes_model.sav','rb'))
+diabetes_model=pickle.load(open('diabetes_model.sav','rb'))
 
-heart_disease_model=pickle.load(open('C:/Users/HP/Desktop/saved models/heart_model.sav','rb'))
+heart_disease_model=pickle.load(open('heart_model.sav','rb'))
 
-parkinsons_model=pickle.load(open('C:/Users/HP/Desktop/saved models/parkinsons_model.sav','rb'))
+parkinsons_model=pickle.load(open('parkinsons_model.sav','rb'))
 
 
 
